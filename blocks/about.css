@@ -2,7 +2,6 @@
   background-color: #0a2850;
   display: flex;
   position: relative;
-  z-index: -2;
   overflow: hidden;
   justify-content: space-between;
 }
@@ -15,6 +14,7 @@
   color: #fff;
   max-width: 251px;
   margin: 100px 0 0 80px;
+  z-index: 3;
 }
 
 .about__content {
@@ -28,10 +28,11 @@
 }
 
 .about__paragraph {
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
   color: #fff;
+  margin: 0;
 }
 
 .about__circle {
@@ -43,7 +44,7 @@
   display: flex;
   top: -152px;
   left: -129px;
-  z-index: -1;
+  z-index: 2;
 }
 
 .about__circle_animation_blurred {
